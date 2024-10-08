@@ -21,5 +21,5 @@ To get started with this repository, follow these steps:
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/learning-java-dsa.git
-   cd learning-java-dsa
+   git clone https://github.com/MayankGhatawal/Data-Structure-and-Algorithms.git
+   cd Data-Structure-and-Algorithms
