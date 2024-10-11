@@ -6,10 +6,16 @@ public class Checkifnumberisprimeornot {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
-        if (number == number * 1 && number == 1 * number) {
-            System.out.println("Number is prime : " + number);
-        }else{
-            System.out.println("Number is not prime");
+        boolean isPrime = true;
+        for (int i = 2; i <= number-1; i++){
+            if (number % i == 0) {
+                isPrime = false;
+            }
+        }
+        if (isPrime == true) {
+            System.out.println(number + " is a prime number.");
+        } else {
+            System.out.println(number + " is not a prime number.");
         }
     }
 }
