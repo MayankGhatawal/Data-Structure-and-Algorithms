@@ -12,5 +12,6 @@ public class functionBlock {
         int secondNumber = sc.nextInt();
         int sum = calculateSum(firstNumber, secondNumber);
         System.out.println("Sum is : " + sum);
+        sc.close();
     }
 }
