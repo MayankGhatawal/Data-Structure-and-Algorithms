@@ -24,6 +24,7 @@ public class createCalculator {
                 System.out.println("Error: Division by zero is not allowed.");
             }
         }
+        sc.close();
         }
     }
 
