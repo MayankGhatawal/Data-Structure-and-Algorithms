@@ -21,6 +21,10 @@ public class usingfunctionCalculator {
     public static float calculateSub(int firstNumber, int secondNumber){
         return firstNumber - secondNumber;
     }
+
+    public static int calculateFactor(int firstNumber, int secondNumber){
+        
+    }
     public static void main(String[] args) {
         System.out.println("Enter two numbers : ");
             Scanner sc = new Scanner(System.in);
