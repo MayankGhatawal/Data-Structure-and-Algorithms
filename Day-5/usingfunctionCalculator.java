@@ -47,6 +47,8 @@ public class usingfunctionCalculator {
         }
         else if (value.equals("div")){
             calculateDiv(firstNumber, secondNumber);
+        } else if (value.equals("fact")){
+            calculateFactor(firstNumber, secondNumber);
         }
         else {
             System.out.println("Invalid operation type.");
